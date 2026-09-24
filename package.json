@@ -1,0 +1,25 @@
+{
+  "name": "qvac-villain-catchphrase-generator",
+  "version": "1.0.0",
+  "description": "Type a villain's motive and an on-device AI writes a dramatic catchphrase for them, with a deterministic menace meter.",
+  "type": "module",
+  "main": "src/gui.js",
+  "scripts": {
+    "start": "node src/gui.js",
+    "gui": "node src/gui.js"
+  },
+  "keywords": [
+    "qvac",
+    "on-device-ai",
+    "fun",
+    "llm",
+    "offline-ai"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@qvac/sdk": "^0.19.0"
+  },
+  "engines": {
+    "node": ">=22.17"
+  }
+}
